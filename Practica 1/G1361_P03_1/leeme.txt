@@ -1,0 +1,15 @@
+Para compilarlo con el makefile tenemos las banderas -g -ansi -Wall -pedantic que usamos siempre 
+excepto en el afnd_ofus.c que no usamos -pedantic y para el tenemos otras flags.
+Cuando se hace make se hace un clear que borra los .o
+
+Para ejecutarlo se puede ejecutar de manera normal usando ./ y si queremos usar valgrind se puede usar make valgrind.
+
+Make clean borra todos los .o .dot .png y el ejecutable
+
+Para generar el png a partir del .dot se puede hacer make dot
+
+Un resumen es:
+    make
+    make valgrind
+    make dot
+    make clean

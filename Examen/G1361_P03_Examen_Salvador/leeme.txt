@@ -1,0 +1,6 @@
+Salvador Martin Barcia
+La ejecucion:
+1. make
+2. make valgrind
+3. make dot 
+Esto generara un afdm.png que correspondera con la solucion del ejercicio.
